@@ -24,6 +24,11 @@ class ZeroSectionAdapter {
 
 extension ZeroSectionAdapter: SectionAdapterInput {
     
+    func tableView(titleForHeaderInSection section: Int, in tableView: UITableView) -> String? {
+        
+        return "Section 0"
+    }
+    
     func registerCells(in tableView: UITableView) {
         
         let nib = UINib(nibName: "CellZero", bundle: nil)

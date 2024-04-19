@@ -16,6 +16,8 @@ protocol SectionAdapterInput {
     func heightForRow(at indexPath: IndexPath, in tableView: UITableView) -> CGFloat
     
     func didSelectRow(at indexPath: IndexPath, in tableView: UITableView)
+    
+    func tableView(titleForHeaderInSection section: Int, in tableView: UITableView) -> String?
 }
 
 // MARK: - Default

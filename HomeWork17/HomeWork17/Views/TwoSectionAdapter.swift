@@ -24,6 +24,11 @@ class TwoSectionAdapter {
 
 extension TwoSectionAdapter: SectionAdapterInput {
     
+    func tableView(titleForHeaderInSection section: Int, in tableView: UITableView) -> String? {
+        return "Section 2"
+    }
+    
+    
     func registerCells(in tableView: UITableView) {
         
         let nib = UINib(nibName: "CellTwo", bundle: nil)

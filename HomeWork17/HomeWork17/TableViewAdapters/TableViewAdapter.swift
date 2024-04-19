@@ -43,6 +43,10 @@ extension TableViewAdapter: UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return sections[indexPath.section].heightForRow(at: indexPath, in: tableView)
     }
+    
+    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
+        return sections[section].tableView(titleForHeaderInSection: section, in: tableView)
+    }
 }
 
 extension TableViewAdapter: UITableViewDelegate {
