@@ -9,7 +9,12 @@ import UIKit
 
 class CellOneViewCell: UITableViewCell {
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    @IBOutlet weak var label: UILabel!
+    @IBOutlet weak var switcher: UISwitch!
+    
+    func setup(with model: CellOneDisplayModel) {
+        
+        label.text = model.title
+        switcher.isOn = model.switcher
     }
 }

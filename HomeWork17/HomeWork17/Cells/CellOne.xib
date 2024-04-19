@@ -32,6 +32,10 @@
                     <constraint firstItem="g2H-ec-qOh" firstAttribute="leading" secondItem="edi-a1-qiD" secondAttribute="leading" constant="10" id="cVq-vH-Kju"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="g2H-ec-qOh" id="IzN-Cj-2G9"/>
+                <outlet property="switcher" destination="qQ2-kb-ZJa" id="iKE-De-wdy"/>
+            </connections>
             <point key="canvasLocation" x="196.18320610687022" y="-69.014084507042256"/>
         </tableViewCell>
     </objects>

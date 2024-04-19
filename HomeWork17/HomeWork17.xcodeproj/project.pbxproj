@@ -18,13 +18,16 @@
 		BF0787202BD25C570001FB7E /* CellTwo.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF07871F2BD25C570001FB7E /* CellTwo.xib */; };
 		BF0787222BD25D3A0001FB7E /* CellZeroViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787212BD25D3A0001FB7E /* CellZeroViewCell.swift */; };
 		BF0787242BD25D560001FB7E /* CellOneViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787232BD25D560001FB7E /* CellOneViewCell.swift */; };
-		BF0787262BD25D6D0001FB7E /* CellTwoViewCellr.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787252BD25D6D0001FB7E /* CellTwoViewCellr.swift */; };
+		BF0787262BD25D6D0001FB7E /* CellTwoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787252BD25D6D0001FB7E /* CellTwoViewCell.swift */; };
 		BF0787282BD269D70001FB7E /* TableViewAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787272BD269D70001FB7E /* TableViewAdapter.swift */; };
 		BF07872D2BD26A560001FB7E /* TableViewAdapterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07872C2BD26A560001FB7E /* TableViewAdapterInput.swift */; };
-		BF0787302BD26AD00001FB7E /* CellsSetSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07872F2BD26AD00001FB7E /* CellsSetSectionAdapter.swift */; };
 		BF0787332BD26AFF0001FB7E /* SectionAdapterInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787322BD26AFF0001FB7E /* SectionAdapterInput.swift */; };
 		BF0787352BD26F910001FB7E /* CellZeroDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787342BD26F910001FB7E /* CellZeroDisplayModel.swift */; };
 		BF0787372BD276C60001FB7E /* ZeroSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787362BD276C60001FB7E /* ZeroSectionAdapter.swift */; };
+		BF0787392BD296AA0001FB7E /* CellOneDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0787382BD296AA0001FB7E /* CellOneDisplayModel.swift */; };
+		BF07873B2BD296C30001FB7E /* CellTwoDisplayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07873A2BD296C30001FB7E /* CellTwoDisplayModel.swift */; };
+		BF07873D2BD2984D0001FB7E /* OneSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07873C2BD2984D0001FB7E /* OneSectionAdapter.swift */; };
+		BF07873F2BD2985D0001FB7E /* TwoSectionAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF07873E2BD2985D0001FB7E /* TwoSectionAdapter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,13 +44,16 @@
 		BF07871F2BD25C570001FB7E /* CellTwo.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CellTwo.xib; sourceTree = "<group>"; };
 		BF0787212BD25D3A0001FB7E /* CellZeroViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellZeroViewCell.swift; sourceTree = "<group>"; };
 		BF0787232BD25D560001FB7E /* CellOneViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOneViewCell.swift; sourceTree = "<group>"; };
-		BF0787252BD25D6D0001FB7E /* CellTwoViewCellr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTwoViewCellr.swift; sourceTree = "<group>"; };
+		BF0787252BD25D6D0001FB7E /* CellTwoViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTwoViewCell.swift; sourceTree = "<group>"; };
 		BF0787272BD269D70001FB7E /* TableViewAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapter.swift; sourceTree = "<group>"; };
 		BF07872C2BD26A560001FB7E /* TableViewAdapterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewAdapterInput.swift; sourceTree = "<group>"; };
-		BF07872F2BD26AD00001FB7E /* CellsSetSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellsSetSectionAdapter.swift; sourceTree = "<group>"; };
 		BF0787322BD26AFF0001FB7E /* SectionAdapterInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionAdapterInput.swift; sourceTree = "<group>"; };
 		BF0787342BD26F910001FB7E /* CellZeroDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellZeroDisplayModel.swift; sourceTree = "<group>"; };
 		BF0787362BD276C60001FB7E /* ZeroSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroSectionAdapter.swift; sourceTree = "<group>"; };
+		BF0787382BD296AA0001FB7E /* CellOneDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellOneDisplayModel.swift; sourceTree = "<group>"; };
+		BF07873A2BD296C30001FB7E /* CellTwoDisplayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellTwoDisplayModel.swift; sourceTree = "<group>"; };
+		BF07873C2BD2984D0001FB7E /* OneSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSectionAdapter.swift; sourceTree = "<group>"; };
+		BF07873E2BD2985D0001FB7E /* TwoSectionAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoSectionAdapter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +97,8 @@
 				BF0787122BD258CB0001FB7E /* LaunchScreen.storyboard */,
 				BF0787152BD258CB0001FB7E /* Info.plist */,
 				BF0787342BD26F910001FB7E /* CellZeroDisplayModel.swift */,
+				BF0787382BD296AA0001FB7E /* CellOneDisplayModel.swift */,
+				BF07873A2BD296C30001FB7E /* CellTwoDisplayModel.swift */,
 			);
 			path = HomeWork17;
 			sourceTree = "<group>";
@@ -111,8 +119,10 @@
 				BF07870B2BD258C90001FB7E /* ViewController.swift */,
 				BF0787212BD25D3A0001FB7E /* CellZeroViewCell.swift */,
 				BF0787232BD25D560001FB7E /* CellOneViewCell.swift */,
-				BF0787252BD25D6D0001FB7E /* CellTwoViewCellr.swift */,
+				BF0787252BD25D6D0001FB7E /* CellTwoViewCell.swift */,
 				BF0787362BD276C60001FB7E /* ZeroSectionAdapter.swift */,
+				BF07873C2BD2984D0001FB7E /* OneSectionAdapter.swift */,
+				BF07873E2BD2985D0001FB7E /* TwoSectionAdapter.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -129,7 +139,6 @@
 		BF07872E2BD26A9E0001FB7E /* Sections */ = {
 			isa = PBXGroup;
 			children = (
-				BF07872F2BD26AD00001FB7E /* CellsSetSectionAdapter.swift */,
 				BF0787322BD26AFF0001FB7E /* SectionAdapterInput.swift */,
 			);
 			path = Sections;
@@ -211,12 +220,15 @@
 			files = (
 				BF0787352BD26F910001FB7E /* CellZeroDisplayModel.swift in Sources */,
 				BF0787372BD276C60001FB7E /* ZeroSectionAdapter.swift in Sources */,
+				BF07873F2BD2985D0001FB7E /* TwoSectionAdapter.swift in Sources */,
 				BF07870C2BD258C90001FB7E /* ViewController.swift in Sources */,
-				BF0787262BD25D6D0001FB7E /* CellTwoViewCellr.swift in Sources */,
+				BF0787262BD25D6D0001FB7E /* CellTwoViewCell.swift in Sources */,
 				BF0787332BD26AFF0001FB7E /* SectionAdapterInput.swift in Sources */,
+				BF07873D2BD2984D0001FB7E /* OneSectionAdapter.swift in Sources */,
 				BF07872D2BD26A560001FB7E /* TableViewAdapterInput.swift in Sources */,
 				BF0787082BD258C90001FB7E /* AppDelegate.swift in Sources */,
-				BF0787302BD26AD00001FB7E /* CellsSetSectionAdapter.swift in Sources */,
+				BF07873B2BD296C30001FB7E /* CellTwoDisplayModel.swift in Sources */,
+				BF0787392BD296AA0001FB7E /* CellOneDisplayModel.swift in Sources */,
 				BF0787282BD269D70001FB7E /* TableViewAdapter.swift in Sources */,
 				BF0787222BD25D3A0001FB7E /* CellZeroViewCell.swift in Sources */,
 				BF0787242BD25D560001FB7E /* CellOneViewCell.swift in Sources */,

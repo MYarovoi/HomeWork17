@@ -52,6 +52,11 @@
                     <constraint firstItem="n6s-89-daW" firstAttribute="centerY" secondItem="VZW-3F-nCQ" secondAttribute="centerY" id="vqr-b2-Z3W"/>
                 </constraints>
             </tableViewCellContentView>
+            <connections>
+                <outlet property="descriprion" destination="mID-Dr-Qs2" id="1Te-Jh-RAc"/>
+                <outlet property="productImage" destination="VZW-3F-nCQ" id="Vda-GI-hUC"/>
+                <outlet property="title" destination="G8s-bl-HTE" id="zV2-p3-Xyu"/>
+            </connections>
             <point key="canvasLocation" x="145.80152671755724" y="-3.1690140845070425"/>
         </tableViewCell>
     </objects>
